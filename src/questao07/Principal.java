@@ -16,13 +16,11 @@ public class Principal {
         System.out.println("Digite a medida do lado 3: ");
         int lado3 = scanner.nextInt();
 
-        if(lado1==lado2 && lado2==lado3){
+        if (lado1 == lado2 && lado2 == lado3) {
             System.out.println("Triangulo Equilátero");
-        }
-        else if(lado1 != lado2 && lado2 != lado3 && lado1 != lado3){
+        } else if (lado1 != lado2 && lado2 != lado3 && lado1 != lado3) {
             System.out.println("Triangulo Escaleno");
-        }
-        else{
+        } else {
             System.out.println("Triangulo Isóceles");
         }
     }
